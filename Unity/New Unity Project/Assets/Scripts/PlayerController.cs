@@ -2,7 +2,7 @@
 //Date:		10/11/2015
 //Time:		18:00
 //Script:	Player Controller
-//Notes:	Functioning perfectly
+//Notes:	Functioning
 
 using UnityEngine;
 using System.Collections;

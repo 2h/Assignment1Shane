@@ -2,7 +2,7 @@
 //Date:		11/11/2015
 //Time:		18:00
 //Script:	Object Rotation Script
-//Notes:	Functioning perfectly
+//Notes:	Functioning
 
 using UnityEngine;
 using System.Collections;

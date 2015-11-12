@@ -2,7 +2,7 @@
 //Date:		9/11/2015
 //Time:		19:29
 //Script:	Camera Controller
-//Notes:	Functioning perfectly
+//Notes:	Functioning
 
 using UnityEngine;
 using System.Collections;
