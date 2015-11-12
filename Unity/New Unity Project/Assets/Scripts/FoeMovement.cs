@@ -50,4 +50,27 @@ public class FoeMovement : MonoBehaviour {
 			currentWayPoint = wayPointOne;
 		}	
 	}
+	
+/*	void onTriggerEnter(Collider other)
+	{
+		Debug.Log("Object Entered the Trigger");
+	}
+
+	void onTriggerStay(Collider other)
+	{
+		Debug.Log("Object is within the Trigger");
+	}
+
+	void onTriggerExit(Collider other)
+	{
+		Debug.Log ("Objext exited the Trigger");
+	}
+		//		if(thingWeCollidedWith.gameObject.CompareTag("Player"))
+//		{
+//			Debug.Log ("Player Entered Detection Zone" + thingWeCollidedWith.gameObject.tag);
+//			//Debug.Log ("Player Postion" + thingWeCollidedWith.transform.position);
+//			transform.position = Vector2.MoveTowards (transform.position, thingWeCollidedWith.transform.position, speed * Time.deltaTime);
+//		}
+*/
+
 }

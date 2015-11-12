@@ -1,13 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TiledBackground.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/detectionZone.cs">
     <Files>
-      <File FileName="Assets/Scripts/FoeMovement.cs" Line="1" Column="2" />
-      <File FileName="Assets/Scripts/PlayerStats.cs" Line="9" Column="21" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="5" Column="21" />
-      <File FileName="Assets/Scripts/CameraController.cs" Line="5" Column="21" />
-      <File FileName="Assets/Scripts/RotateItem.cs" Line="5" Column="21" />
-      <File FileName="Assets/Scripts/TiledBackground.cs" Line="5" Column="21" />
+      <File FileName="Assets/Scripts/FoeMovement.cs" Line="74" Column="3" />
+      <File FileName="Assets/Scripts/PlayerStats.cs" Line="35" Column="38" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RotateItem.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TiledBackground.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/detectionZone.cs" Line="26" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
