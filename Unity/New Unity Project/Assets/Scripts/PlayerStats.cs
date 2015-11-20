@@ -20,6 +20,7 @@ public class PlayerStats : MonoBehaviour {
 	public Text countText;
 	private int count;
 
+
 	// Use this for initialization
 	void Start () {
 		count = 0;
@@ -27,7 +28,7 @@ public class PlayerStats : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
 	public void OnCollisionEnter2D(Collision2D thingWeCollidedWith)
