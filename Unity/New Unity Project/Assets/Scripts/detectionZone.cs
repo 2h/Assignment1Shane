@@ -3,17 +3,17 @@ using System.Collections;
 
 public class DetectionZone : MonoBehaviour {
 
-	public FoeMovement Foe;
+	//public FoeMovement Foe;
 
 	//this int is used as a flag for detection
 	//the value is pulled to the FoeMovement script
 	public static int detect = 0;
 
-
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if(other.gameObject.CompareTag("Player"))
 		{
+			//Foe.detectMV = 1;
 			Debug.Log("Object Entered the Trigger: " + other.gameObject.tag);
 			detect = 1;
 		}
