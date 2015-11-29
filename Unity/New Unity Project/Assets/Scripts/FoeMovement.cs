@@ -58,7 +58,6 @@ public class FoeMovement : MonoBehaviour {
 			currentWayPoint = playerPosition;
 			
 			transform.position = Vector2.MoveTowards (transform.position, currentWayPoint.position, speed * Time.deltaTime);
-			//transform.position = Vector2.MoveTowards (transform.position, playerPosition, speed * Time.deltaTime);			
 		}
 
 		if (detectMV == 0) 

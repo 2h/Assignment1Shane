@@ -23,14 +23,14 @@ public class PlayerController : MonoBehaviour {
 		//Accelerate
 		if(Input.GetButtonDown("Jump"))
 		{
-			Debug.Log("Jump Pressed");
+			//Debug.Log("Jump Pressed");
 			//Accelerate
 			currentSpeed = runSpeed;
 		}
 		
 		if (Input.GetButtonUp ("Jump"))
 		{
-			Debug.Log("Jump Released");
+			//Debug.Log("Jump Released");
 			//Decellerate
 			currentSpeed = walkSpeed;
 		}
@@ -39,28 +39,28 @@ public class PlayerController : MonoBehaviour {
 		//Movement
 		if(Input.GetAxis("Horizontal") < -0.1f)
 		{
-			Debug.Log("Left");
+			//Debug.Log("Left");
 
 			MoveCharacter(new Vector2(Input.GetAxis("Horizontal"), 0));
 		}
 
 		if(Input.GetAxis("Horizontal") > 0.1f)
 		{
-			Debug.Log("Right");
+			//Debug.Log("Right");
 
 			MoveCharacter(new Vector2(Input.GetAxis("Horizontal"), 0));
 		}
 
 		if(Input.GetAxis("Vertical") > 0.1f)
 		{
-			Debug.Log("Up");
+			//Debug.Log("Up");
 
 			MoveCharacter(new Vector2(0, Input.GetAxis("Vertical")));
 		}
 
 		if(Input.GetAxis("Vertical") < -0.1f)
 		{
-			Debug.Log("Down");
+			//Debug.Log("Down");
 
 			MoveCharacter(new Vector2(0, Input.GetAxis("Vertical")));
 		}
