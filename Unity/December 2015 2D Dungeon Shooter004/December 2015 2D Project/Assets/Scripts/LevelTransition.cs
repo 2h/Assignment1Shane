@@ -2,15 +2,10 @@
 using System.Collections;
 
 public class LevelTransition : MonoBehaviour {
-
+	
 	public Transform newPlayerPosition;
 
 	public string CurrentLevelName;
-
-	void Updare()
-	{
-	
-	}
 
 	void OnTriggerEnter2D(Collider2D transitionObject)
 	{
@@ -18,10 +13,16 @@ public class LevelTransition : MonoBehaviour {
 
 		if (transitionObject.gameObject.tag == "Player") 
 		{
-			Application.LoadLevel("Level002");
+
+
+			//change the position of the player to the spawn point of the level
+			transitionObject.gameObject.transform.position = newPlayerPosition.position;
+
+			//the camera is childed to the player so automatically follows
 		}
 	}
 
+	//not currently used
 	void getLevelName()
 	{
 		CurrentLevelName = Application.loadedLevelName;
