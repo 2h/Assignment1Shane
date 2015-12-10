@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 77481d736b39343f481ad2504763c612
+timeCreated: 1449664081
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Left
+    21300002: TL
+    21300004: TR
+    21300006: TRInner
+    21300008: TROuter
+    21300010: TC
+    21300012: BC
+    21300014: BL
+    21300016: BR
+    21300018: BROuter
+    21300020: BRInner
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Left
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 778
+        width: 148
+        height: 1152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TL
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1719
+        width: 555
+        height: 217
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TR
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1721
+        width: 688
+        height: 218
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TRInner
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1120
+        width: 151
+        height: 807
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TROuter
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 1032
+        width: 155
+        height: 891
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TC
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1499
+        width: 271
+        height: 211
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BC
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1040
+        width: 410
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BL
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 773
+        width: 815
+        height: 212
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BR
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 772
+        width: 819
+        height: 218
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BROuter
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 177
+        width: 147
+        height: 793
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BRInner
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 173
+        width: 138
+        height: 441
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

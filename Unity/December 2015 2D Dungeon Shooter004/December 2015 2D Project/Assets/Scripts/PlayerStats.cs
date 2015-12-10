@@ -25,6 +25,10 @@ public class PlayerStats : MonoBehaviour {
 
 	public Image gameOverScreen;
 
+	//timer
+	float timer;
+	string timerFormatted;
+
 	// Use this for initialization
 	void Start () 
 	{
