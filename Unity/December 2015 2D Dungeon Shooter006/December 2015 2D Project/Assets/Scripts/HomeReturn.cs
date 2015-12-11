@@ -6,29 +6,41 @@ public class HomeReturn : MonoBehaviour {
 
 	//link to PlayerStats to see acorn count
 	public PlayerStats PS;
+	
+	public GameOver GOMenuRef;
+	
+	public GameObject GOMenu;
 
-	public Image GameEnd;
+	public Timer TimerRef;
 
-	//public GameOver GO;
+	public int captureTime;
+
+	//public Image GameEnd;
 
 	// Use this for initialization
 	void Start () {
-	
+
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update () 
+	{
+
 	}
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if(other.gameObject.CompareTag("Player") && PS.countAcorns >= 3)
 		{
-			Debug.Log ("Complete");
+			Debug.Log ("Complete" + PS.countAcorns);
 
-			//GO.SetScore();
-			GameEnd.gameObject.SetActive(true);
+			captureTime = TimerRef.intDuration;
+
+			Debug.Log("Time " + captureTime);
+
+			GOMenuRef.SetScore();
+
+			GOMenu.SetActive(true);
 		}
 	}
 }

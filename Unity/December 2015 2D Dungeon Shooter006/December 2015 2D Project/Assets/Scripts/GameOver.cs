@@ -12,6 +12,7 @@ public class GameOver : MonoBehaviour {
 
 	public PlayerStats PS;
 	public Timer PT;
+	public HomeReturn HomeRetRef;
 	//public HomeReturn HRet;
 
 
@@ -30,10 +31,12 @@ public class GameOver : MonoBehaviour {
 
 	public void SetScore() 
 	{
-			acornsCollected = PS.plyFinishAcorns;
+			acornsCollected = PS.countAcorns;
 			acornCountText.text = "Acorns: " + acornsCollected.ToString ();
 			
-			playerTime = PS.plyFinishTime;
+			//playerTime = PT.intDuration;
+			
+			playerTime = HomeRetRef.captureTime; 
 			timeText.text = "Time: " + playerTime.ToString ();
 	}
 
