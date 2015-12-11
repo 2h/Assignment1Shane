@@ -4,10 +4,18 @@ using System.Collections;
 
 public class GameOver : MonoBehaviour {
 
-	public int bestTime;
-	public Text timerText;
+	public int playerTime;
+	public Text timeText;
 
-	public Timer TimerRef;
+	public int acornsCollected;
+	public Text acornCountText;
+
+	public PlayerStats PS;
+	public Timer PT;
+	//public HomeReturn HRet;
+
+
+	//public Button RetMenu;
 	
 	// Use this for initialization
 	void Start () {
@@ -22,6 +30,15 @@ public class GameOver : MonoBehaviour {
 
 	public void SetScore() 
 	{
-		timerText.text = "Game Time: " + TimerRef.intDuration.ToString();
+			acornsCollected = PS.plyFinishAcorns;
+			acornCountText.text = "Acorns: " + acornsCollected.ToString ();
+			
+			playerTime = PS.plyFinishTime;
+			timeText.text = "Time: " + playerTime.ToString ();
+	}
+
+	public void LoadMainMenu()
+	{
+		Application.LoadLevel (0);
 	}
 }

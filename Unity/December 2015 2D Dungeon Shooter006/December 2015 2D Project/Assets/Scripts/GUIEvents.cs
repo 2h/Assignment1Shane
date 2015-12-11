@@ -3,9 +3,9 @@ using System.Collections;
 
 public class GUIEvents : MonoBehaviour {
 
-	public void ReloadLevel()
+	public void ReLoadLevel()
 	{
-		Application.LoadLevel (Application.loadedLevelName);
+		Application.LoadLevel (0);
 	}
 
 }

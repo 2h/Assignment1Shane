@@ -4,7 +4,7 @@
 //Script:	Player Stats
 //Notes:	Detects Collision. 
 //Notes:	In the event that the Player collides with an Item, it is destroyed and Count is increased
-//Notes:	In the event that the Player collides with a Foe, the count value is decreased
+//Notes:	Removed - In the event that the Player collides with a Foe, the count value is decreased
 //Notes:	The Count value is prohibited from going below the value of 0
 //Notes:	Functioning
 
@@ -26,11 +26,26 @@ public class PlayerStats : MonoBehaviour {
 	//Using a Slider Bar for Health
 	public Slider healthBarSlider;
 
+	//Game Over screen
+	public Image GameEnd;
+
+	//link to Timer
+	public Timer PTOb;
+
+	//store the finish stats
+	public int plyFinishTime;
+	public int plyFinishAcorns;
+
+
 	// Use this for initialization
 	void Start () 
 	{
 		acornCountText.text = "Acorns: " + countAcorns.ToString();
 		plyHealthText.text = "Health: " + plyHealth.ToString();
+
+
+		//GameEnd.gameObject.SetActive (false);
+
 	}
 	
 	// Update is called once per frame
@@ -55,9 +70,11 @@ public class PlayerStats : MonoBehaviour {
 		{
 
 			//Acorns
+			//Removed drop acorns for prototype
+			//countAcorns-=1;
+			//Debug.Log("Dropped an Item!");
 
-			countAcorns-=1;
-			Debug.Log("Dropped an Item!");
+
 
 			//Stop minus numbers in collection data
 			if(countAcorns < 0)
@@ -78,11 +95,17 @@ public class PlayerStats : MonoBehaviour {
 			if(plyHealth <= plyMinHealth)
 			{
 
+				//Get Time elapsed at health = 0
+				plyFinishTime = PTOb.intDuration;
+				plyFinishAcorns = countAcorns;
 
 				//Debug.Log("Game Over!");
 				//Destroy(gameObject);
-				//gameOverScreen.gameObject.SetActive(true);
-				Application.LoadLevel("GameOver");
+
+
+				GameEnd.gameObject.SetActive(true);
+
+				//Application.LoadLevel(0);
 			}
 		}
 	}
@@ -99,6 +122,5 @@ public class PlayerStats : MonoBehaviour {
 		plyHealthText.text = "Health: " + plyHealth.ToString ();
 		healthBarSlider.value-=1f;
 	}
-
 
 }

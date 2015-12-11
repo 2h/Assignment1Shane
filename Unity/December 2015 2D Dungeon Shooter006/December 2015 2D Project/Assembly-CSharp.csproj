@@ -49,7 +49,7 @@
      <Compile Include="Assets\Scripts\FoeMovementArray.cs" />
      <Compile Include="Assets\Scripts\GUIEvents.cs" />
      <Compile Include="Assets\Scripts\GameOver.cs" />
-     <Compile Include="Assets\Scripts\GameOverTime.cs" />
+     <Compile Include="Assets\Scripts\HomeReturn.cs" />
      <Compile Include="Assets\Scripts\LevelTimeStore.cs" />
      <Compile Include="Assets\Scripts\LevelTransition.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
