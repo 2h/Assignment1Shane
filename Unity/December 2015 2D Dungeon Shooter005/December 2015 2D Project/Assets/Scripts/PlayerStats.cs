@@ -80,7 +80,7 @@ public class PlayerStats : MonoBehaviour {
 				Debug.Log("Game Over!");
 				//Destroy(gameObject);
 				//gameOverScreen.gameObject.SetActive(true);
-				Application.LoadLevel("MainMenu");
+				Application.LoadLevel("GameOver");
 			}
 		}
 	}
@@ -97,4 +97,6 @@ public class PlayerStats : MonoBehaviour {
 		plyHealthText.text = "Health: " + plyHealth.ToString ();
 		healthBarSlider.value-=1f;
 	}
+
+
 }

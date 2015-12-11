@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: c1340da4ad1a540fd8281b6792a3cc1c
+timeCreated: 1449657591
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LTOuter
+    21300002: LTInner
+    21300004: TL
+    21300006: TR
+    21300008: RTInner
+    21300010: RTOuter
+    21300012: BL
+    21300014: BR
+    21300016: LBOuter
+    21300018: LBInner
+    21300020: RBInner
+    21300022: RBOuter
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: LTOuter
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1013
+        width: 138
+        height: 910
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LTInner
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1371
+        width: 137
+        height: 552
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TL
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1619
+        width: 816
+        height: 315
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TR
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1619
+        width: 812
+        height: 315
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RTInner
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 1360
+        width: 136
+        height: 563
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RTOuter
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 1255
+        width: 138
+        height: 668
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BL
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1242
+        width: 818
+        height: 315
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BR
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1242
+        width: 672
+        height: 315
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LBOuter
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 73
+        width: 138
+        height: 905
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LBInner
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 73
+        width: 137
+        height: 561
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RBInner
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 422
+        width: 136
+        height: 207
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RBOuter
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 427
+        width: 138
+        height: 789
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

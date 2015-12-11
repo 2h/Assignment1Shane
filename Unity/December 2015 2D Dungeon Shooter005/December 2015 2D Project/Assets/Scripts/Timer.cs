@@ -20,6 +20,7 @@ public class Timer : MonoBehaviour {
 
 	public void Start()
 	{
+		Awake ();
 		//initiate to zero at start
 		timerText.text = "Time: " + Time.time;
 	}
@@ -38,5 +39,9 @@ public class Timer : MonoBehaviour {
 		//Debug.Log ("Start Time: " + intDuration);
 
 		timerText.text = "Time: " + intDuration.ToString ();
+	}
+
+	void Awake () {
+		DontDestroyOnLoad (this);
 	}
 }

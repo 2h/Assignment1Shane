@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: a3dd873076d8444bfbeb42dacc8a01f3
+timeCreated: 1449677926
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Squirrel
+    21300002: SquirrelHead
+    21300004: SquirrelTorso
+    21300006: SquirrelTail
+    21300008: SquirrelArmInner
+    21300010: SquirrelArmOuter
+    21300012: SquirrelLegInner
+    21300014: SquirrelLegOuter
+    21300016: Fox
+    21300018: FoxHead
+    21300020: FoxTail
+    21300022: FoxLegFrontInner
+    21300024: FoxLegFrontOuter
+    21300026: FoxTorso
+    21300028: FoxLegRearOuter
+    21300030: FoxLegRearInner
+    21300032: Hawk
+    21300034: HawkHead
+    21300036: HLWing
+    21300038: HawkTorso
+    21300040: HRWing
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Squirrel
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 662
+        width: 300
+        height: 334
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SquirrelHead
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 833
+        width: 76
+        height: 76
+      alignment: 9
+      pivot: {x: .815374255, y: .0963215083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SquirrelTorso
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 822
+        width: 71
+        height: 78
+      alignment: 9
+      pivot: {x: .687578738, y: .0828873292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SquirrelTail
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 721
+        width: 128
+        height: 197
+      alignment: 9
+      pivot: {x: .295415014, y: .0725636408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SquirrelArmInner
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 791
+        width: 62
+        height: 23
+      alignment: 9
+      pivot: {x: .865183532, y: .578113914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SquirrelArmOuter
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 786
+        width: 61
+        height: 23
+      alignment: 9
+      pivot: {x: .858023047, y: .539056957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SquirrelLegInner
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 716
+        width: 58
+        height: 48
+      alignment: 9
+      pivot: {x: .596295595, y: .634259522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SquirrelLegOuter
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 712
+        width: 68
+        height: 59
+      alignment: 9
+      pivot: {x: .702178061, y: .951473951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fox
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 436
+        width: 300
+        height: 143
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FoxHead
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 506
+        width: 68
+        height: 71
+      alignment: 9
+      pivot: {x: .705815911, y: .227317274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FoxTail
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 506
+        width: 144
+        height: 72
+      alignment: 9
+      pivot: {x: .0323278643, y: .16179657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FoxLegFrontInner
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 448
+        width: 35
+        height: 46
+      alignment: 9
+      pivot: {x: .652190268, y: .963191807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FoxLegFrontOuter
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 397
+        width: 25
+        height: 53
+      alignment: 9
+      pivot: {x: .454343259, y: .952267647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FoxTorso
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 448
+        width: 105
+        height: 52
+      alignment: 9
+      pivot: {x: .873149753, y: .369770348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FoxLegRearOuter
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 397
+        width: 40
+        height: 63
+      alignment: 9
+      pivot: {x: .604631066, y: .965029776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FoxLegRearInner
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 430
+        width: 45
+        height: 63
+      alignment: 9
+      pivot: {x: .229437932, y: .904635966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hawk
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 121
+        width: 300
+        height: 182
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HawkHead
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 262
+        width: 35
+        height: 44
+      alignment: 9
+      pivot: {x: .473618865, y: .174872652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HLWing
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 166
+        width: 110
+        height: 60
+      alignment: 9
+      pivot: {x: .909688473, y: .593887568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HawkTorso
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 121
+        width: 38
+        height: 105
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HRWing
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 165
+        width: 110
+        height: 61
+      alignment: 9
+      pivot: {x: .0903103948, y: .592348456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
